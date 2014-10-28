@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/hoodie/Euro"
   s.summary     = "Euro - it's a gas"
   s.description = "Convenience code for calculating with money, uses rational numbers."
-  s.required_ruby_version     = '>= 1.8.7'
+  s.required_ruby_version     = '>= 2.1'
   s.files = ['lib/Euro.rb', 'lib/Euro/version.rb']
   s.extra_rdoc_files = ["README.md", "LICENSE.md"]
   s.license = 'GPL'
