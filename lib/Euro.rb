@@ -39,6 +39,7 @@ class Euro
     self
   end
 
+  # TODO: this might be overwritten or extended to suppport other currency styles
   def to_s
     value = @value.to_f
     a,b = sprintf("%0.2f", value.to_s).split('.')
