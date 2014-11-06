@@ -1,1 +1,1 @@
-require File.dirname(__FILE__) + '/../lib/Euro'
+require File.dirname(__FILE__) + '/../lib/euro'
