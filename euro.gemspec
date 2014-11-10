@@ -14,4 +14,7 @@ Gem::Specification.new do |s|
   s.files = ['lib/euro.rb', 'lib/euro/version.rb']
   s.extra_rdoc_files = ["README.md", "LICENSE.md"]
   s.license = 'GPL'
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rspec-core'
+  s.add_development_dependency 'rake'
 end
